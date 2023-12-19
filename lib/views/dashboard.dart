@@ -179,12 +179,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         ),
                         trailing: item['quiz'] != null
                             ? CircleAvatar(
-                                child: Icon(
+                                backgroundColor: AppColors.primaryColor,
+                                child: const Icon(
                                   Icons.arrow_forward_ios_sharp,
                                   color: Colors.white,
                                   size: 16.0,
                                 ),
-                                backgroundColor: AppColors.primaryColor,
                               )
                             : const SizedBox.shrink(),
                       ),
